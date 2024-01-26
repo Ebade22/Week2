@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        tfoot td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="5">
+        <caption>STUDY TABLE</caption>
+        <thead>
+            <tr>
+                <th  scope="col">DAYS</th>
+                <th scope="col">MORNING</th>
+                <th scope="col">EVENING</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th  scope="row">MONDAY</th>
+            <td>HTML</td>
+            <td rowspan="2">CSS</td>
+            </tr>
+            <th scope="row">TUESDAY </th>
+            <td>HTML</td>
+            
+            <tr>
+            <th scope="row">WEDNESDAY</th>
+            <td>CSS</td>
+            <td>HTML</td>
+            </tr>
+            <tr>
+            <th scope="row">THURSDAY</th>
+            <td rowspan="2">HTML</td>
+            <td>CSS</td>
+            </tr>
+            <tr>
+            <th scope="row">FRIDAY</th>
+           <td>HTML</td>
+           </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">CHANGE TIMETABLE EVERY 2 WEEKS</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

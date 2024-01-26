@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>PERSONAL DATA</legend>
+            <ul>
+                <li><label for="fname">First Name</label>
+                <input type="text" name="text" id="fname" required placeholder="Ebade"></li>
+                <li>
+                    <label for="surname">Surame</label>
+                <input type="text" name="text" id="surname" required placeholder="Esangbedo">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                <input type="email" name="email" id="email" required >
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                <input type="tel" name="tel" id="phone" required >
+                </li>
+                <li>
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" name="date" id="dob">
+                </li>
+                <li>
+                    <label for="country">Country</label>
+                    <select>
+                        <optgroup label="America">
+                            <option value="Me">Mexico</option>
+                            <option value="br">Brazil</option>
+
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="fr">France</option>
+                            <option value="en">England</option>
+
+                        </optgroup>
+                        <optgroup label="Africa">
+                            <option value="ng" selected>Nigeria</option>
+                            <option value="sa">South Africa</option>
+
+                        </optgroup>
+
+
+                    </select>
+                </li>
+
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>OFFICIAL USE</legend>
+        </fieldset>
+        <input type = "submit" value="sign up">
+    </form>
+    
+</body>
+</html>
